@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+h2{
+	margin: 0 auto 8px;
+	color: #000;
+	font-size: 32px;
+}
+h3{
+	margin: 30px 0;
+	color: #000;
+	font-size: 16px;
+}
+.headline-border{
+	margin: 8px auto 0;
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+}
+
+
+header{
+	width: 100%;
+	background-color: #EC715F;
+}
+.header-main{
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+}
+.header-title{
+	float: left;
+	height: 70px;
+	width: 180px;	/*ここの大きさ上手く指定する方法？*/
+	margin: auto 0;
+	background-image: url(mysite/logo.png);
+	background-size: cover;
+	/*line-height: 70px;*/
+}
+.navbar{
+	float: right;
+	/*display: inline-block;*/
+}
+.navbar-list{
+	list-style: none;
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 30px;
+	color: #FAFAFA;
+	font-size: 16px;
+}
+
+
+.main-visual{
+	width: 100%;
+	height: 650px;
+	background-image: url(mysite/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+.main-visual-title{
+	text-align: center;
+	padding-top: 200px;
+	color: #FAFAFA;
+	font-size: 64px;
+}
+.main-visual-text{
+	text-align: center;
+	padding-top: 10px;
+	color: #FAFAFA;
+	font-size: 20px;
+}
+
+.main-1{
+	width: 100%;
+	padding: 90px 0;
+	background-color: #ECEFF1;
+}
+.portfolio-contents{
+	width: 920px;
+	margin: 0 auto;
+}
+.portfolio-texts{
+	text-align: center;
+}
+.portfolio-images{
+	width: 920px;
+}
+.portfolio-image:nth-child(1){
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	background-image: url(mysite/sketch.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.portfolio-image:nth-child(2){
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	background-image: url(mysite/websuku.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.portfolio-image:nth-child(3){
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 0 0 10px;
+	background-image: url(mysite/write.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.portfolio-image:nth-child(4){
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 0;
+	background-image: url(mysite/webcamp.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.portfolio-image:nth-child(5){
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 0 10px;
+	background-image: url(mysite/talk.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.portfolio-image:nth-child(6){
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 0;
+	background-image: url(mysite/webcamp-mother.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+
+
+
