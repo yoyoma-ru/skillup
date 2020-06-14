@@ -28,7 +28,7 @@ i{
 	/*position: absolute;
 	left: 160px*/
 	font-size: 60px;
-	margin: o auto;
+	margin: 0 auto;
 }
 
 
@@ -252,7 +252,83 @@ header{
 }
 
 
+.main-4{
+	width: 100%;
+	padding: 90px 0;
+}
+.contact-contents{
+	width: 800px;
+	margin: 0 auto;
+}
+.contact-box1{
+	width: 800px;
+	text-align: center;
+}
+.contact-box2{
+	width: 800px;
+}
+.contact-texts{
+	float: left;
+	/*margin: 0 auto;*/
+	width: 400px;
+	/*text-align: center;*/
+	list-style: none;
+}
+.contact-text-box{
+	width: 130px;
+	margin: 0 auto;
+}
+.contact-text-1{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.contact-text-2{
+	font-size: 16px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+.contact-text-3{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.contact-text-4{
+	font-size: 16px;
+	text-decoration: underline;
+}
+.contact-icons{
+	float: left;
+	width: 400px;
+}
+.contact-icon-box{
+	width: 220px;
+	margin: 0 auto;
+}
+.contact-icon-text{
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.contact-icon{
+	float: left;
+	font-size: 50px;
+}
+.contact-icon-2{
+	float: left;
+	font-size: 50px;
+	margin: 0 20px;
+}
 
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
+.footer-text{
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+	line-height: 60px;
+}
 
 
 
