@@ -20,7 +20,6 @@ header > div{
 	/*display: flex;*/
 	background-color: #FFBBFF;
 	margin: 0 10px;
-	justify-content: flex-end;
 	flex-basis: 140px;
 	height: 70px;
 }
@@ -31,23 +30,43 @@ header > div:first-child{
 
 main{
 	display: flex;
-	margin: 0 auto;
+	justify-content: center;
+	/*margin: 0 auto;*/
 }
-.box-right{
+.box-left{
 	width: 300px;
 	background-color: #E6FFE9;
 }
-.box-left{
+.box-right{
 	display: flex;
+	flex-grow: 1;
 	max-width: 700px;
 	padding: 20px;
-	align-content: stretch;
+	flex-wrap: wrap;
+	justify-content: center;
 	background-color: #00FF3B;
 }
 .box-left > div{
 	flex-basis: 200px;
 	height: 130px;
 	margin: 10px;
-	flex-grow: 1;
+	/*flex-grow: 1;*/
 	background-color: yellow;
+}
+
+
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	padding: 20px;
+	background-color: #4689FF;
+}
+footer > div{
+	margin: 10px;
+	height: 40px;
+	flex-basis: 45%;
+	max-width: 600px;
+	background-color: #A7F1FF;
 }
