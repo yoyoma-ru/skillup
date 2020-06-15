@@ -9,7 +9,7 @@
 .flex > div{
 	background-color: #fff;
 	margin: 5px;
-	font-size: 300px;
+	font-size: 30px;
 }
 .flex > div:nth-child(1){
 	/*order: 2;
